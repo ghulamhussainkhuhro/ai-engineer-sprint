@@ -1,0 +1,29 @@
+# Ignore virtual environment
+venv/
+
+# Ignore environment variable files
+.env
+.env.*
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore log or debug files
+*.log
+
+# Ignore anything secret in subfolders
+**/.env
+**/.env.*
+# Ignore coverage reports
+coverage.xml
